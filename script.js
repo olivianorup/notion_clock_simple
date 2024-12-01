@@ -47,7 +47,7 @@ function clock(){
     minutes = updateTime(minutes);
     seconds = updateTime(seconds);
 
-    document.getElementById("clock").innerHTML = "<span>"+hours+"</span>" + "<spacer>"+":"+"</spacer>" + "<span>"+minutes+"</span>" + "<spacer>"+":"+"</spacer>" + "<span>"+seconds+"</span>";
+    document.getElementById("clock").innerHTML = "<span>"+hours+"</span>" + ":" + "<span>"+minutes+"</span>" + ":" + "<span>"+seconds+"</span>";
     
     
     var time = setTimeout(function(){
