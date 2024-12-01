@@ -30,11 +30,19 @@ h1 {
     text-transform: uppercase;
 }
 
+#week spacer {
+    margin-right: 5px;
+}
+
 #date {
     display: inline-block;
     color: #d4d4d4;
     text-transform: uppercase;
     margin-bottom: 5px;
+}
+
+#date spacer {
+    margin-right: 5px;
 }
 
 #clock {
